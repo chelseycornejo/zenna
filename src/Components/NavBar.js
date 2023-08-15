@@ -4,16 +4,16 @@ import {Link} from 'react-router-dom';
 
 // ASSETS
 import logodark from '../assets/logodark.png';
-
-
+import { FaSearch } from 'react-icons/fa';
+import { BsBagFill } from 'react-icons/bs';
 function NavBar() {
 
     return (
-        <nav>
+        <nav className="wrapper">
             <figure>
                 <img src={logodark} alt='logo in black' />
             </figure>
-            <ul>
+            <ul className="menu">
                 <li>
                     <Link to={`/`}>
                         <h4>Home</h4>
@@ -45,7 +45,7 @@ function NavBar() {
                     </Link>
                 </li>
             </ul>
-            <ul>
+            <ul className="cart-menu">
                 <li>
                     <Link to={`MyAccount`}>
                         <h4>My Account</h4>
@@ -53,12 +53,12 @@ function NavBar() {
                 </li>
                 <li>
                     <Link to={`Search`}>
-                        <h4>Search</h4>
+                        <h4><FaSearch /></h4>
                     </Link>
                 </li>
                 <li> 
                     <Link to={`Cart`}>
-                        <h4>Cart</h4>
+                        <h4><BsBagFill /></h4>
                     </Link>
                 </li>
             </ul>
