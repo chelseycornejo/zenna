@@ -24,6 +24,43 @@ function NavBar() {
                         <h4>Shop</h4>
                     </Link>
                 </li>
+                <li>
+                    <Link to={`Pages`}>
+                        <h4>Pages</h4>
+                    </Link>
+                </li>
+                <li>
+                    <Link to={`Blog`}>
+                        <h4>Blog</h4>
+                    </Link>
+                </li>
+                <li>
+                    <Link to={`Features`}>
+                        <h4>Features</h4>
+                    </Link>
+                </li>
+                <li>
+                    <Link to={`Elements`}>
+                        <h4>Elements</h4>
+                    </Link>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <Link to={`MyAccount`}>
+                        <h4>My Account</h4>
+                    </Link>
+                </li>
+                <li>
+                    <Link to={`Search`}>
+                        <h4>Search</h4>
+                    </Link>
+                </li>
+                <li> 
+                    <Link to={`Cart`}>
+                        <h4>Cart</h4>
+                    </Link>
+                </li>
             </ul>
         </nav>
     )
