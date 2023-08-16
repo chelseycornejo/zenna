@@ -9,42 +9,44 @@ import { BsBagFill } from 'react-icons/bs';
 function NavBar() {
 
     return (
-        <nav className="wrapper">
+        <div className="wrapper navFlex">
             <figure>
                 <img src={logodark} alt='logo in black' />
             </figure>
-            <ul className="menu">
-                <li>
-                    <Link to={`/`}>
-                        <h4>Home</h4>
-                    </Link>
-                </li>
-                <li>
-                    <Link to={`Shop`}>
-                        <h4>Shop</h4>
-                    </Link>
-                </li>
-                <li>
-                    <Link to={`Pages`}>
-                        <h4>Pages</h4>
-                    </Link>
-                </li>
-                <li>
-                    <Link to={`Blog`}>
-                        <h4>Blog</h4>
-                    </Link>
-                </li>
-                <li>
-                    <Link to={`Features`}>
-                        <h4>Features</h4>
-                    </Link>
-                </li>
-                <li>
-                    <Link to={`Elements`}>
-                        <h4>Elements</h4>
-                    </Link>
-                </li>
-            </ul>
+            <nav className="menu">
+                <ul>
+                    <li>
+                        <Link to={`/`}>
+                            <h4>Home</h4>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to={`Shop`}>
+                            <h4>Shop</h4>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to={`Pages`}>
+                            <h4>Pages</h4>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to={`Blog`}>
+                            <h4>Blog</h4>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to={`Features`}>
+                            <h4>Features</h4>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to={`Elements`}>
+                            <h4>Elements</h4>
+                        </Link>
+                    </li>
+                </ul>
+            </nav>
             <ul className="cart-menu">
                 <li>
                     <Link to={`MyAccount`}>
@@ -62,7 +64,7 @@ function NavBar() {
                     </Link>
                 </li>
             </ul>
-        </nav>
+        </div>
     )
 }
 

@@ -1,9 +1,14 @@
 // HOME.JS
 
+//COMPONENTS
+import HomeHeader from './HomeHeader.js'
+
 function Home() {
 
     return (
-        <h1>Home</h1>
+        <>
+            <HomeHeader />
+        </>
     )
 }
 

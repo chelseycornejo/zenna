@@ -1,0 +1,14 @@
+.homePageHeader {
+    background-image: url(../../assets/homeBanner.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    h3 {
+        display: flex;
+        hr {
+            width: 3vw;
+        }
+    }
+}
