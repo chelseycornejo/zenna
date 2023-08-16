@@ -1,7 +1,9 @@
 @use './variables' as *;
+@use './typography.scss' as *;
 
 body {
     background-color: $background;
+    font-family: $basefont;
 }
 
 .wrapper {
