@@ -1,0 +1,21 @@
+.navFlex {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    figure {
+        flex-basis: 10%;
+    }
+    ul {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .menu {
+        flex-basis: 45%;
+        text-transform: uppercase;
+    }
+    .cart-menu {
+        flex-basis: 15%;
+    }
+}
